@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="N11 Test Suite" duration-ms="33660" started-at="2018-12-20T19:07:38Z" finished-at="2018-12-20T19:08:12Z">
+    <groups>
+    </groups>
+    <test name="CaseTest" duration-ms="33660" started-at="2018-12-20T19:07:38Z" finished-at="2018-12-20T19:08:12Z">
+      <class name="tests.CaseTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CaseTests@6be46e8f]" name="setup" is-config="true" duration-ms="20629" started-at="2018-12-20T19:07:38Z" finished-at="2018-12-20T19:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginBootstrap()[pri:0, instance:tests.CaseTests@6be46e8f]" name="loginBootstrap" duration-ms="6887" started-at="2018-12-20T19:07:59Z" description="Escenario de inicio de sesion" finished-at="2018-12-20T19:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBootstrap -->
+        <test-method status="PASS" signature="menuBootstrap()[pri:1, instance:tests.CaseTests@6be46e8f]" name="menuBootstrap" duration-ms="1132" started-at="2018-12-20T19:08:06Z" description="Menu de sistema" finished-at="2018-12-20T19:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuBootstrap -->
+        <test-method status="PASS" signature="registroSistema()[pri:2, instance:tests.CaseTests@6be46e8f]" name="registroSistema" duration-ms="4232" started-at="2018-12-20T19:08:07Z" description="Registro en el Sistema" finished-at="2018-12-20T19:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registroSistema -->
+        <test-method status="PASS" signature="pruebaPosicion()[pri:3, instance:tests.CaseTests@6be46e8f]" name="pruebaPosicion" duration-ms="1" started-at="2018-12-20T19:08:11Z" description="Prueba Posicion" finished-at="2018-12-20T19:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaPosicion -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.CaseTests@6be46e8f]" name="teardown" is-config="true" duration-ms="724" started-at="2018-12-20T19:08:11Z" finished-at="2018-12-20T19:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CaseTests -->
+    </test> <!-- CaseTest -->
+  </suite> <!-- N11 Test Suite -->
+</testng-results>

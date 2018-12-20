@@ -27,9 +27,6 @@ public class BaseTest {
     public void setup() {
         //Crea un controlador de Chrome. Todas las clases de prueba usan esto.
         // Instancia de Data Driven
-        LeerExcel leer = new LeerExcel(System.getProperty("user.dir") + "\\excel\\DataDriven.xlsx");
-        String valor = leer.getCellData("ColsubsidioOpera", "Numero De Habitacion", 2);
-        System.out.println("Prueba Excel: " + valor);
         System.setProperty("webDriver.chrome.Driver", System.getProperty("user.dir") + "\\chromedriver.exe");
 
         driver = new ChromeDriver();
