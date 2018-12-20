@@ -1,0 +1,10 @@
+pages\BasePage.class
+pages\ActionWeb.class
+pages\LoginPage.class
+pages\ActionDesktop.class
+pages\HomePage.class
+pages\Main.class
+pages\LeerExcel.class
+pages\MenuPage.class
+pages\RegisterPage.class
+pages\ActionGui.class
